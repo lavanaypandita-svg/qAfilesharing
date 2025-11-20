@@ -44,6 +44,7 @@ app.use('/api/files', require('./routes/files'));
 app.use('/api/audit', require('./routes/audit'));
 app.use('/api/honeyfiles', require('./routes/honeyfiles'));
 app.use('/api/users', require('./routes/users'));
+app.use('/api/crypto', require('./routes/crypto'));
 
 io.use((socket, next) => {
   try {
